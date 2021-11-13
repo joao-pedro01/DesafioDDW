@@ -1,3 +1,6 @@
+* {
+    color: #ffffff;
+}
 body {
     background-color: #18191B;
 }
@@ -20,7 +23,7 @@ h1 {
 }
 .select-nav {
     background-color: #ffffff;
-    color: #6d6d6d;
+    color: #000;
     width: 13rem;
     margin-right: 1rem;
 }
@@ -30,4 +33,26 @@ h1 {
 }
 .btn-dark {
     background-color: #33353a;
+}
+.title-primary {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.title-secondary {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.img-responsive {
+    margin-bottom: 2rem;
+}
+.content {
+    width: 55%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Correção de bug */
+.row {
+    width: 99%;
 }
