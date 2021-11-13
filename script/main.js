@@ -6,16 +6,16 @@
     switch (Option.value) 
     {
         case 'horror':
-            window.location.href = 'terror.html'
+            window.location.href = 'pages/terror.html'
             break;
         case 'drama':
-            window.location.href = 'drama.html'
+            window.location.href = 'pages/drama.html'
             break;
         case 'kids':
-            window.location.href = 'infantil.html'
+            window.location.href = 'pages/infantil.html'
             break;
         case 'family':
-            window.location.href = 'familia.html'
+            window.location.href = 'pages/familia.html'
             break;
         default: alert ("Selecione uma opção válida!!!")
             break;
