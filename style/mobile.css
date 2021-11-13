@@ -1,0 +1,31 @@
+body {
+    background-color: #18191B;
+}
+.content-home {
+    padding-top: 60%;
+    width: 75%;
+    margin: auto;
+}
+h1 {
+    color: #ffffff;
+    margin: auto;
+    font-size: 120%;
+}
+form {
+    padding-top: 10%;
+}
+.form-select {
+    background-color: #33353a;
+    color: #ffffff;
+    border-color: black;
+    border-width: 1px;
+}
+.btn-dark {
+    background-color: #33353a;
+    margin-top: 2rem;
+    margin-left: 38%;
+}
+.btn-dark:hover {
+    background-color: #00000000;
+    border-color: rgb(255, 255, 255);
+}
