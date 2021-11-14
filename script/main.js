@@ -8,6 +8,9 @@
     {
         switch (Option.value) 
         {
+            case 'adventure':
+                window.location.href = 'pages/aventura.html'
+                break;
             case 'horror':
                 window.location.href = 'pages/terror.html'
                 break;
@@ -28,6 +31,9 @@
     {
         switch (Option.value) 
         {
+            case 'adventure':
+                window.location.href = '../pages/aventura.html'
+                break;
             case 'horror':
                 window.location.href = '../pages/terror.html'
                 break;

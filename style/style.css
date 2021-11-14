@@ -26,6 +26,9 @@ h1 {
     color: #000;
     width: 13rem;
     margin-right: 1rem;
+} 
+.select-nav option {
+    color: #333;
 }
 .btn-nav {
     background-color: #424242;
