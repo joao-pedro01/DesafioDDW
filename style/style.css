@@ -53,7 +53,7 @@ h1 {
     height: 100%;
 }
 .content {
-    width: 60%;
+    width: 75%;
     color: #ffffff;
     font-size: 1.1rem;
     text-align: justify;
@@ -64,6 +64,9 @@ h1 {
     color: #ffffff;
     font-size: 1.1rem;
     text-align: justify;
+}
+.video {
+    margin-top: 2rem;
 }
 
 /* Correção de bug */
