@@ -12,7 +12,7 @@
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
-  <li>Bootstrap</li>
+  <li>Bootstrap5</li>
   <li>JavaScript</li>
   <li>MediaQuieres</li>
 </ul>
