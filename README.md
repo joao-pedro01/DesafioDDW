@@ -14,5 +14,5 @@
   <li>CSS3</li>
   <li>Bootstrap5</li>
   <li>JavaScript</li>
-  <li>MediaQuieres</li>
+  <li>MediaQueires</li>
 </ul>
