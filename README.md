@@ -1,6 +1,6 @@
 # DesafioDDW
 
-<h2> Fazer um Menu em javascript  com 5 (ou mais) temas de Séries/Seriados/Filmes conforme combinado na aula do dia 05 de outubro de 2022.</h2>
+<h2> Fazer um Menu em javascript  com 5 (ou mais) temas de Séries/Seriados/Filmes conforme combinado na aula.</h2>
 
 <h3>Ao Selecionar a opção deveremos:</h3>
 <ul>
