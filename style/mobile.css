@@ -1,0 +1,79 @@
+* {
+    color: #ffffff;
+}
+body {
+    background-color: #18191B;
+}
+.content-home {
+    padding-top: 60%;
+    width: 75%;
+    margin: auto;
+}
+h1 {
+    color: #ffffff;
+    font-size: 120%;
+}
+.select {
+    padding-top: 10%;
+}
+.form-select {
+    background-color: #33353a;
+    color: #ffffff;
+    border-color: black;
+    border-width: 1px;
+}
+.select-nav {
+    background-color: #ffffff;
+    color: #000;
+    width: 13rem;
+    margin-right: 1rem;
+} 
+.select-nav option {
+    color: #333;
+}
+.btn-nav {
+    background-color: #424242;
+    margin-right: 2rem;
+}
+.btn-dark {
+    background-color: #33353a;
+}
+.title-primary {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.title-secondary {
+    margin-top: 2.5rem;
+    margin-bottom: 1.75rem;
+}
+.img-responsive {
+    margin-bottom: 2rem;
+}
+.cartaz {
+    width: 50%;
+    height: 10%;
+}
+.content {
+    width: 75%;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.text {
+    font-size: 10px;
+}
+.content-cartaz{
+    width: 55%;
+    padding-left: 5rem;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.video {
+    margin-top: 2rem;
+}
+
+/* Correção de bug */
+.row {
+    width: 99%;
+}
