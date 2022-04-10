@@ -1,4 +1,4 @@
-
+<?php include_once '../scripts/config.php'; ?>
 <!-- NavBar pastas -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -20,15 +20,19 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
-                    </a>    
+                    </a>
+
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="aventura.html">Aventura</a></li>
-                        <li><a class="dropdown-item" href="drama.html">Drama/Tecnologia</a></li>
-                        <li><a class="dropdown-item" href="infantil.html">Infantil</a></li>
-                        <li><a class="dropdown-item" href="familia.html">Para Familia</a></li>
-                        <li><a class="dropdown-item" href="terror.html">Terror</a></li>
+                        <?php
+                            $results = DB::query("SELECT nome_categoria FROM categoria");
+                            foreach ($results as $row){
+                                $str = strtolower($row['nome_categoria']);
+
+                                echo '<li><a class="dropdown-item" href="'.$str.'.php">'.$row['nome_categoria'].'</a></li>';
+                            }
+                        ?>
                         <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">pag</a></li>
+                        <li><a class="dropdown-item" href="#"></a></li>
                     </ul>
                 </li>
             </ul>

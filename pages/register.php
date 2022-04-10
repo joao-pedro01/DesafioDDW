@@ -30,21 +30,25 @@
                         <div class="card-body p-5 text-center">
                             <div class="mb-md-5 mt-md-4 pb-5">
 
-                                <form action="../scripts/" method="post">
+                                <form action="../scripts/register.php" method="post">
                                     <h2 class="fw-bold mb-2">Registre-se</h2>
                                     <p class="text-white-50 mb-5">Por favor, digite seus dados para se registrar!</p>
                             
                                     <div class="form-outline form-white mb-4">
-                                        <input type="email" id="typeEmailX" class="form-control form-control" placeholder="Login" required/>
+                                        <input type="text" id="typeUserName" class="form-control form-control" placeholder="Nome do usuário" name="username" required/>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <input type="password" id="typePasswordX" class="form-control form-control" placeholder="Senha" required/>
+                                        <input type="email" id="typeEmailX" class="form-control form-control" placeholder="Email@example.com" name="email" required/>
+                                    </div>
+
+                                    <div class="form-outline form-white mb-4">
+                                        <input type="password" id="typePasswordX" class="form-control form-control" placeholder="Senha" name="senha" required/>
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
                                         <label class="form-label" for="typeDate">Data de nascimento</label>
-                                        <input type="date" id="typePasswordX" class="form-control form-control" placeholder="Senha" required/>
+                                        <input type="date" id="typePasswordX" class="form-control form-control" placeholder="Senha" name="datanasc" required/>
                                     </div>
 
                                     <button class="btn btn-outline-light btn-lg px-5" type="submit">Cadastrar</button>
