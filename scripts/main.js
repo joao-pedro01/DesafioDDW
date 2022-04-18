@@ -3,50 +3,30 @@
     let Option = document.getElementById('option');
     let Value = document.getElementById ('value').value;
 
-    if (Value == 0)
-    {
-        switch (Option.value)
-        {
-            case 'adventure':
-                window.location.href = 'pages/aventura.html'
-                break;
-            case 'horror':
-                window.location.href = 'pages/terror.html'
-                break;
-            case 'drama':
-                window.location.href = 'pages/drama.html'
-                break;
-            case 'kids':
-                window.location.href = 'pages/infantil.html'
-                break;
-            case 'family':
-                window.location.href = 'pages/familia.html'
-                break;
-            default: alert ("Selecione uma opção válida!!!")
-                break;
-        }
+    if (Value == 0){
+        Directory = "";
+    }else {
+        Directory = "../";
     }
-    else
-    {
-        switch (Option.value) 
-        {
+
+        switch (Option.value){
             case 'adventure':
-                window.location.href = '../pages/aventura.html'
+                window.location.href = Directory + 'pages/aventura.php'
                 break;
             case 'horror':
-                window.location.href = '../pages/terror.html'
+                window.location.href = Directory + 'pages/terror.php'
                 break;
             case 'drama':
-                window.location.href = '../pages/drama.html'
+                window.location.href = Directory + 'pages/drama.php'
                 break;
             case 'kids':
-                window.location.href = '../pages/infantil.html'
+                window.location.href = Directory + 'pages/infantil.php'
                 break;
             case 'family':
-                window.location.href = '../pages/familia.html'
+                window.location.href = Directory + 'pages/familia.php'
                 break;
             default: alert ("Selecione uma opção válida!!!")
                 break;
-        }
+    
     }
 }

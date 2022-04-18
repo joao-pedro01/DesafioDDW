@@ -10,24 +10,32 @@
         exit;
     }
     /*
+        Loged( Booleam ) : 
+        function Loged caso esteja logado
+    */
+    function Loged($booleam){
+        error_reporting(0);
+        if($booleam['UserName'] == NULL){
+            return false;
+        }else {
+            return true;
+        }
+    }
+    /*
         function Erro caso seja inválido
     */
-    function Invalid($Error){
+    function Invalid($string){
         echo '<body onload="window.history.back();">';
         echo '<script>';
-        echo "alert('{$Error}')";
+        echo "alert('{$string}')";
         echo '</script>';
-        $Error = false;
-        return $Error;
     }
     /*
         function Sucess caso operação sejá bem sucedida
     */
-    function Sucess($Sucess){
+    function Sucess($string){
         echo '<body onload="window.history.back();">';
         echo '<script>';
-        echo "alert('{$Sucess}')";
+        echo "alert('{$string}')";
         echo '</script>';
-
-        exit();
     }

@@ -20,7 +20,7 @@
     <title>Registro</title>
 </head>
 <body>
-    <?php include '../templates/navbar.html' ?>
+    <?php include '../templates/navbar.php' ?>
 
     <section class="vh-100 gradient-custom">
         <div class="container py-5 h-100">
@@ -47,8 +47,7 @@
                                     </div>
 
                                     <div class="form-outline form-white mb-4">
-                                        <label class="form-label" for="typeDate">Data de nascimento</label>
-                                        <input type="date" id="typePasswordX" class="form-control form-control" placeholder="Senha" name="datanasc" required/>
+                                        <input type="text" class="form-control" placeholder="Date de nascimento" onfocus="(this.type='date')" onblur="(this.type='text')" name="datanasc" required>
                                     </div>
 
                                     <button class="btn btn-outline-light btn-lg px-5" type="submit">Cadastrar</button>
